@@ -34,6 +34,10 @@ public class LunchTime {
      */
     public LunchTime() {
         // TODO: Initialize all four instance variables.
+        int numNugs = 0;
+        double mysterySauce = 0.0;
+        boolean enoughNugs = false;
+        String entreeName = "";
     }
 
 
@@ -42,6 +46,7 @@ public class LunchTime {
      */
     public LunchTime(int nugs, double sauce, boolean enough, String name) {
         // TODO: Set all four instance variables using the parameters.
+        
     }
 
 
@@ -59,7 +64,8 @@ public class LunchTime {
      */
     public int getEntreeNameLength() {
         // TODO
-        return 0;
+        int len = entreeName.length();
+        return len;
     }
 
 
